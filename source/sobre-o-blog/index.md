@@ -5,13 +5,13 @@ date: 2015-12-13 15:06:10
 # Sobre o Blog
 
 Tudo começou com uma ideia nada original: Criar um blog.
-O objetivo final era o mesmo que todos os blogs, compartilhar informação.
-O problema é que eu nunca escrevi um texto assim para outra pessoa ler. Claro, o tempo todo estou escrevendo e-mails, notas, lembretes, e na época da escola era redações e redações.
+O objetivo final era o mesmo de todos os blogs, compartilhar informação.
+O problema é que eu nunca escrevi um texto assim para outra pessoa ler. Claro, o tempo todo estou escrevendo e-mails, notas, lembretes, e na época da escola eram redações e redações.
 Mas fazer um blog é diferente.
 
 Antes de começar a fazer tudo estava claro. Agora, bem, o que eu vou escrever mesmo?
 
-Sempre me deparei com problemas de qual ferramente usar, qual o melhor layout, a melhor linguagem e etc.
+Sempre me deparei com problemas de qual ferramenta usar, qual o melhor layout, a melhor linguagem e etc.
 Primeiro vem a agitação do dia-a-dia, depois o comodismo e, após essas barreiras, o perfeccionismo.
 Começar já está bem difícil. Chegar a atingir o objetivo de realmente compartilhar informação relevante parece ser impossível.
 
@@ -19,7 +19,7 @@ Bom, parece que hoje eu consegui.
 O primeiro passo está dado.
 
 Inspirações não faltam. Sou aficionado em leitura de outros blogs.
-Varios autores compartilham excelentes textos com discussões intrigantes.
+Vários autores compartilham excelentes textos com discussões intrigantes.
 Outros postam artigos técnicos muito relevantes.
 Essa cultura em nosso segmento de TI é de um valor inestimável e também o que nos diferencia como comunidade de trabalho.
 
