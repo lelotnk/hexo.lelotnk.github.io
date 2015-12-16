@@ -130,6 +130,6 @@ Ok, existe uma comunicação estabelecida, dados estão sendo trafegados pelo TC
 Mas como acontece a mágica da Web? Como o servidor sabe qual página quero ver?
 Como ocorre a comunicação do meu navegador com o servidor?
 
-## HTTP - O idioma da Web
+## O Protocolo HTTP
 
 
