@@ -38,20 +38,18 @@ Os Estados Unidos temiam um ataque, e qualquer inovação era bem vinda para pro
 que permitia a descentralização da informação. Assim se uma base militar fosse atingida as informações não seriam perdidas.
 Assim nasceu a ARPANET, criada pela *Advanced Research Projects Agency* (ARPA).
 
-O ataque inimigo da União Soviética, teóricamente, nunca existiu. Mas o que o Departamento de Defesa dos Estados Unidos não imagiva era que acabara de criar o maior fenômeno midiático so século 20.
+O ataque inimigo da União Soviética, teóricamente, nunca existiu. Mas o que o Departamento de Defesa dos Estados Unidos não imagiva era que acabara de criar o maior fenômeno midiático do século 20.
 Um sistema de comunicação capaz de atingir cerca de 50 milhões de pessoas em 4 anos.
 
-Na década de 70 a tensão entre URSS e EUA diminuiu. Então o governo dos EUA permitiu os pesquisadores acadêmicos a utilizarem a ARPANET e desenvolvessem suas pesquisas nas suas respectivas universidades.
-Com o crescente número de universidades utilizando a rede, o governo decidiu dividir o sistema em dois grupos: MILNET que possuia localidades militares, e a nova ARPANET com localidades não militares,
-que permitiu o desenvolvimento mais livre da rede, inclusive com a ajuda dos alunos.
+Na década de 70 a tensão entre URSS e EUA diminuiu. Então o governo dos EUA permitiu os pesquisadores acadêmicos a utilizarem a ARPANET para que desenvolvessem suas pesquisas em suas respectivas universidades.
+Com o crescente número de universidades utilizando a rede, o governo decidiu dividir o sistema em dois grupos: MILNET que possuia localidades militares, e a nova ARPANET com localidades não militares, que permitiu o desenvolvimento mais livre da rede, inclusive com a ajuda dos alunos.
 
 A partir daí a INTERNET foi surgindo e se desenvolvendo. Jovens da [contracultura](https://pt.wikipedia.org/wiki/Contracultura) movidos por uma *utopia* de difusão da informação tiveram um papel muito influente na criação dessa rede.
-O governo dos Estados Unidos novamente investiu na internet, patrocinando o desenvolvimento de Backbones, que são como grandes computadores que tem uma capacidade poderosa de dar vazão a uma grande quantidade de fluxo de dados,
-como canais de fibra ótica, elos de satélite, ou elos de transmissão via rádio.
+O governo dos Estados Unidos novamente investiu na internet, patrocinando o desenvolvimento de Backbones, que são como grandes computadores que tem uma capacidade poderosa de dar vazão a uma grande quantidade de fluxo de dados, como canais de fibra ótica, elos de satélite, ou elos de transmissão via rádio.
 
 Seja por interesses acadêmicos, militares, ou visando o grande potencial financeiro e rentável daquela novidade, a internet recebeu ajuda/influência de pesquisadores universitários como do MIT, de empresas privadas como a IBM, de políticos como o senador norte-americano Al Gore e também de estudantes.
 
-Bom, concluindo, a internet é uma grade infraestrutura de rede de computadores.
+Bom, concluindo, a internet é uma grande infraestrutura de rede de computadores.
 Porém o termo Internet e Web são frequentemente usados como sinônimos. É bastante comum ouvir alguém falar "navegar na internet".
 Enquanto a internet é a rede, a Web é apenas um dos muitos serviços que funcionam através da internet.
 A Web é uma aplicação. Uma coleção de documentos (páginas web) e outros recursos como imagens, vídeos ou documentos pdf ligados por *hiperlinks* e URLs e acessados/consumidos por um programa de computador chamado *navegador*.
@@ -68,7 +66,7 @@ Se você precisa pedir açucar para o seu amigo, primeiro você precisa saber on
 
 Com a internet é bem assim. Cada computador, celular, impressora ou qualquer outro dispositivo, ao se conectar numa rede como a internet recebe um endereço único, o IP.
 Além desse IP, seu computador possui muitas portas por onde ele pode se comunicar com outro computador.
-Então se o seu computador quer acessar e consumir o conteúdo do Google, por exemplo, ele precisa saber primeiro qual é o IP do Google e qual a porta ele deve bater para pedir a informação.
+Então se o seu computador quer acessar e consumir o conteúdo do Google, por exemplo, ele precisa saber primeiro qual é o IP do Google e qual porta ele deve bater para pedir a informação.
 
 Essa comunicação entre o seu computador, que está consumindo a informação, e o outro computador que possui a informação a ser consumida, é chamada de arquitetura Cliente Servidor.
 Onde Cliente é o seu computador, e Servidor é o computador que fornece a informação.
@@ -99,7 +97,7 @@ Caso o seu navegador ainda não conheça o endereço do Google, ele se conecta a
 Bom, já temos o endereço IP do Google, mas e a porta?
 
 Bem, na verdade você não precisa saber qual a porta da casa do seu amigo para você ir lá, certo?
-Afinal você já sabe que a porta bater. A que está de frente pra rua, certo?
+Afinal você já sabe em qual porta bater. A que está de frente pra rua, certo?
 A não ser que você seja muito amigo, você não vai entrar numa propriedade privada, escolher qual porta bater e pensar: huum, acho que vou bater nessa porta dos fundos.
 Você faria isso caso você tivesse uma permissão expressa do seu amigo, dizendo: Ei, da próxima vez entre pela porta da cozinha.
 
@@ -132,4 +130,61 @@ Como ocorre a comunicação do meu navegador com o servidor?
 
 ## O Protocolo HTTP
 
+O protocolo HTTP (Hypertext Transfer Protocol) é quem define como vai funcionar a comunicação da aplicação web. Para que o HTTP possa transferir suas informações pela web, é necessário que os protocolos TCP e IP tornem possível a conexão entre clientes e servidor, levando e trazendo os pacotes. Lembra dos Correios?
 
+O HTTP possui algumas características básicas:
+* Utiliza o modelo cliente-servidor, ou seja, o cliente requisita um documento e o servidor responde ou não com o documento solicitado.
+> Cliente: \- Mãe, o que vai ter para o almoço?
+> Servidor: \- Arroz, feijão e ovo.
+* Ele é *stateless*, ou seja, não guarda informações de requisições anteriores. É como se ele tivesse problemas de memória.
+> Cliente: \- Mãe, o que vai ter para o almoço?
+> Servidor: \- Arroz, feijão e ovo.
+> Cliente: \- Já está pronto?
+> Servidor: \- Oi? Hein? Não entendi.
+
+    Com isso, ele não é capaz de reter informações entre as requisições. Para isso você deve utilizar [cookies](https://pt.wikipedia.org/wiki/Cookie_HTTP), [sessões](https://pt.wikipedia.org/wiki/Sess%C3%A3o_%28ci%C3%AAncia_da_computa%C3%A7%C3%A3o%29), campos de formulário ou variáveis na própria url.
+
+    > Cliente: \- Mãe, o que vai ter para o almoço?
+    > Servidor: \- Arroz, feijão e ovo.
+    > Cliente: \- Mãe, o almoço com arroz, feijão e ovo já está pronto?
+    > Servidor: \- Está quase pronto.
+
+Essa comunicação cliente-servidor é feita através de mensagens. O cliente envia uma mensagem de requisição, e o servidor retorna uma mensagem de resposta. Essas mensagens são compostas por um formato específico. É como um acordo de um idioma próprio. Esse idioma/acordo é definido pelo [RFC](https://www.ietf.org/rfc/rfc2616.txt).
+
+Cada mensagem, seja de requisição ou resposta, possui uma linha inicial, nenhuma ou mais linhas de cabeçalho onde são informadas as opções, tipos e outras configurações necessárias. Obviamente também temos o corpo da mensagem que é opcional em determinados casos.
+
+Exemplo de uma requisição, onde é solicitada a página web.
+```
+GET / HTTP/1.1
+Host: www.google.com.br
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: pt-BR,pt;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+```
+
+Exemplo de resposta de uma página web.
+```
+HTTP/1.x 200 OK
+Date: Fri, 04 May 2007 16:05:43 GMT
+Server: Apache/2.0.59 (Unix) mod_ssl/2.0.59 OpenSSL/0.9.7a DAV/2 PHP/4.4.4 mod_bwlimited/1.4
+Cache-Control: no-cache
+Keep-Alive: timeout=3, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=iso-8859-1
+
+<html></html>
+```
+
+Hoje o HTTP está presente em muito de nossas vidas. Outras aplicações além do seu navegador ou de servidores web sabe falar e interpretar esse "idioma". Desde ferramentas de linha de comando, sua smart tv, até seu smartphone sabem lidar com esse protocolo.
+
+Este é um diagrama que mostra o passo a passo de como a internet funciona:
+
+![Diagrama de Sequencia - Cliente Servidor](http://placehold.it/800x500?text=Diagrama de Sequencia - Cliente Servidor)
+
+É claro, existe muitos outros detalhes mais técnicos por traz dessa maravilha chamada internet.
+Mas isso que tentei demonstrar é o básico para quem deseja trabalhar nessa área de desenvolvimento web.
+
+A compreensão desde conteúdo inicial ajudará no entendimento de outros conceitos mais relacionados ao desenvolvimento web. **Bons estudos!**
