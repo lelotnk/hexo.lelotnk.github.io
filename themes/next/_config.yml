@@ -139,7 +139,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: normal
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -172,7 +172,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: lelotnk
 
 # Share
 #jiathis:

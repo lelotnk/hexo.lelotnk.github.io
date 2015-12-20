@@ -3,7 +3,7 @@ tags: 'internet, web'
 date: 2015-12-15 00:07:50
 ---
 
-![Internet - Rede Mundial de Computadores](http://placehold.it/1000x300?text=Rede Mundial)
+![Internet - Rede Mundial de Computadores](/images/posts/earth-74015_1280.jpg)
 
 Você sabe o que é a Internet? Como ela funciona? E a Web? Conhece?
 
@@ -16,12 +16,12 @@ Mas de onde vem essa energia? Como ela chega em minha casa? Bem, a internet é q
 
 Para muitos, a primeira imagem que vem na cabeça ao pensar em Internet é esta:
 
-![Nuvem](http://placehold.it/300x150?text=Nuvem)
+![Nuvem](/images/posts/cloud294.gif)
 
-Mesmo que hoje em dia fala-se muito de *Cloud Computing*, na verdade, ela não se parece em nada com isso.
+Mesmo que hoje em dia fala-se muito de *[Cloud Computing](https://pt.wikipedia.org/wiki/Computa%C3%A7%C3%A3o_em_nuvem)*, na verdade, ela não se parece em nada com isso.
 A internet tem mais essa cara aqui:
 
-![Cabo de Internet](http://placehold.it/300x150?text=Cabo de Rede)
+![Cabo de Internet](/images/posts/cat5-in-the-cradle-1532027.jpg)
 
 Isso mesmo. Um cabo, ou um fio.
 
@@ -56,7 +56,7 @@ A Web é uma aplicação. Uma coleção de documentos (páginas web) e outros re
 Além da Web existem outros serviços/aplicações que funcionam através da internet como e-mails, transferencia de arquivos, controle remoto de computador, jogos e etc.
 A Web (World Wide Web ou WWW) foi criada em 1992 pelo cientista Tim Berners-Lee, do CERN (Organização Europeia para a Investigação Nuclear).
 
-## Ok, Ok. Chega de História. Como tudo isso realmente funciona?
+## Ok, ok. Chega de História. Como tudo isso realmente funciona?
 
 Bem, vamos lá.
 
@@ -71,7 +71,7 @@ Então se o seu computador quer acessar e consumir o conteúdo do Google, por ex
 Essa comunicação entre o seu computador, que está consumindo a informação, e o outro computador que possui a informação a ser consumida, é chamada de arquitetura Cliente Servidor.
 Onde Cliente é o seu computador, e Servidor é o computador que fornece a informação.
 
-![Cliente Servidor](http://placehold.it/300x150?text=Cliente Servidor)
+<img src="/images/posts/arquitetura-cliente-servidor.jpg" alt="Cliente Servidor" width="500">
 
 Ok, mas como eu vou saber qual é o IP e a porta do Google? Eu só digito www.google.com.br na barra do navegador e já funciona!
 
@@ -182,9 +182,14 @@ Hoje o HTTP está presente em muito de nossas vidas. Outras aplicações além d
 
 Este é um diagrama que mostra o passo a passo de como a internet funciona:
 
-![Diagrama de Sequencia - Cliente Servidor](http://placehold.it/800x500?text=Diagrama de Sequencia - Cliente Servidor)
+![Diagrama de Sequencia - Cliente Servidor](/images/posts/arquitetura-cliente-servidor-passo-a-passo.jpg)
 
 É claro, existe muitos outros detalhes mais técnicos por traz dessa maravilha chamada internet.
 Mas isso que tentei demonstrar é o básico para quem deseja trabalhar nessa área de desenvolvimento web.
 
 A compreensão desde conteúdo inicial ajudará no entendimento de outros conceitos mais relacionados ao desenvolvimento web. **Bons estudos!**
+
+
+---
+* Imagens por [pixabay.com](https://pixabay.com/pt/service/terms/);
+* Icon made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
