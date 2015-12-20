@@ -186,7 +186,7 @@ disqus_shortname: lelotnk
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-17838388-4
 
 
 # Make duoshuo show UA
