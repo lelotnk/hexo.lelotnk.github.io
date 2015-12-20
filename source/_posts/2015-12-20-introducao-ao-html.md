@@ -1,10 +1,14 @@
 title: Introdução ao HTML
-date: 2015-12-20 02:29:07
-categories: Curso de HTML5 do Zero!
 tags:
-- HTML
-- Curso de HTML Iniciante
+  - HTML
+  - Curso de HTML Iniciante
+categories: 'Curso de HTML5 do Zero!'
+date: 2015-12-20 02:29:07
 ---
+
+<div style="height: 300px; overflow: hidden;">
+    ![Introdução do HTML](/images/posts/curso-html/html-page.jpg)
+</div>
 
 O que você acha de aprender a programar aplicações Web? Sites? Jogos?
 
@@ -13,7 +17,7 @@ O HTML é a linguagem mais falada na web. Quase tudo que você vê na web é esc
 Vamos começar uma série de aulas sobre o HTML5.
 
 Essa primeira aula é de introdução.
-Você vai aprender o que é o HTML, como poderá fazer e testar os exercícios práticos em seu próprio computador.
+Você vai aprender o que é o HTML e como poderá fazer e testar os exercícios práticos em seu próprio computador.
 
 
 Então vá pegar uma xícara de café, sente-se confortavelmente e vamos começar!
@@ -26,10 +30,12 @@ HTML é uma **linguagem de marcação** utilizada para descrever documentos web 
 
 O nome HTML é uma abreviação da expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto.
 
-**Mas o que é uma linguagem de marcação?**
+**Por que hipertexto?**
+Hipertexto é um texto contém alguns tipos diferentes de informação como imagens, vídeos, sons ou outros arquivos. O acesso a esses tipos de informação se dá através de hiperlinks ou simplesmente links.
 
+**Mas o que é uma linguagem de marcação?**
 Bem, Linguagens de Marcação são utilizadas para definir formatos, ou seja, uma maneira padronizada para exibir elementos em um documento.
-Diferente das *linguagens de programação*, a de marcação não possui estruturas de controle condicionais ou de repetição e também não são capazes de realizar operações matemáticas.
+Diferente das *linguagens de programação*, a de marcação não possui estruturas de controles condicionais ou de repetição e também não são capazes de realizar operações matemáticas.
 As linguagens de marcação utilizam marcadores, mais conhecido como **tags**, para trazer um significado a um elemento que ao ser lido por um sistema ou programa capaz de entendê-lo, irá saber exatamente como esse elemento deve ser exibido visualmente.
 
 ## TAGs HTML
@@ -44,8 +50,9 @@ Uma TAG é definida por uma **palavra chave** envolvida por **[chevrons](https:/
 
 * Uma tag geralmente é escrita em par, como `<p></p>`;
 * A primeira tag `<p>` é chamada de *tag de abertura*, e a segunda tag `</p>`é chamada de *tag de fechamento*;
+* O conteúdo da tag é escrito entre as tags de abertura e fechamento.
 * A *tag de fechamento* é escrita exatamente igual a tag de abertura, porém com uma barra antes de seu nome: `</p>`;
-* O HTML não diferencia letras maiúsculas e minúsculas em suas tags. Portanto `<P></P>` funcionará exatamente igual a `<p></p>`. Porém é **recomendado** e amplamente utilizado a escrita minúscula em todas as tags de um documento;
+* O HTML não diferencia letras maiúsculas e minúsculas em suas tags. Portanto `<P></P>` funcionará exatamente igual a `<p></p>`. Porém é **recomendado** e amplamente utilizada a escrita minúscula em todas as tags de um documento;
 
 ## Estrutura básica de uma página HTML
 
@@ -70,13 +77,13 @@ Vamos entender passo a passo, ok?
 Explico:
 * **DOCTYPE** é a declaração que define o tipo/versão do documento HTML. Você verá outras versões diferentes do HTML5 mais abaixo. O importante aqui é saber que essa declaração deve ser a primeira coisa num documento HTML. Assim o seu navegador entenderá como ele deve renderizar as tags html do documento e exibi-las na tela.
 * `<html></html>` define o início e o fim de um documento HMTL. Tudo que estiver dentro dessas tags é o documento HTML propriamente dito.
-* `<head></head>` provê algumas informações sobre o documento. Essas informações são invisíveis na tela do navegador. Mas são muito importantes.
+* `<head></head>` provê algumas informações sobre o documento. Essas informações são invisíveis na tela do navegador, mas são muito importantes.
 * `<title></title>` é uma das informações descritas no `<head>`. Essa tag define o título do documento.
 * `<body></body>` define o conteúdo visível do documento. É o que você está vendo na tela do navegador.
 * `<h1></h1>` é uma tag que define um título/cabeçalho do conteúdo do documento.
 * `<p></p>` é uma tag que define um parágrafo. Trocando seis por meia dúzia, o que você escrever dentro dessa tag, o navegador interpretará como um parágrafo de texto.
 
-Com essas poucas tags um navegador saberá que esse documento possui um título *Título da Página*, possui um conteúdo com um cabeçalho e, logo após, um parágrafo.
+Com essas poucas tags um navegador saberá que esse documento possui um título "**Título da Página**" e possui um conteúdo com um cabeçalho e, logo após, um parágrafo.
 
 Existem centenas de outras tags que vamos aprender no decorrer das aulas.
 
@@ -87,7 +94,7 @@ Abaixo é uma outra visualização da estrutura básica de um documento HTML.
 ## A declaração DOCTYPE
 
 Como vimos antes, o DOCTYPE define o tipo/versão do documento web.
-Isso porque existem outros tipos de documentos diferentes de HTML circulando por aí, e também em relação a versão, existem tags que são aceitas numa versão que não são aceitas em outra. Ou a maneira de escrever também pode mudar de vesão para versão.
+Isso porque existem outros tipos de documentos diferentes de HTML circulando por aí, e também em relação a versão, existem tags que são aceitas numa versão que não são aceitas em outra. E a maneira de escrever também pode mudar de versão para versão.
 Então, para mostrar o conteúdo corretamente o navegador precisa saber de que tipo é o documento e qual a versão ele deve utilizar.
 
 ### Tipos mais comuns de DOCTYPE
@@ -175,4 +182,4 @@ Por enquanto é só.
 
 Na próxima aula vamos falar sobre o *charset* e começar ver algumas tags básicas do HTML.
 
-Grande abraço, e bons estudos. ;)
+Grande abraço, e bons estudos. ;)   
