@@ -8,7 +8,7 @@ date: 2015-12-15 00:07:50
 Você sabe o que é a Internet? Como ela funciona? E a Web? Conhece?
 
 Se você está lendo isso aqui, provavelmente você deve utilizar muito a internet.
-A maioria das pessoas que a utilizam não fazem nem ideia de como ela funciona.
+A maioria das pessoas que a utiliza não fazem nem ideia de como ela funciona.
 É como a energia elétrica em suas casas, todos sabem que é só ligar alguma coisa na tomada e pronto, vai funcionar.
 Mas de onde vem essa energia? Como ela chega em minha casa? Bem, a internet é quase parecida com isso.
 
@@ -27,15 +27,14 @@ Isso mesmo. Um cabo, ou um fio.
 
 A internet ganha toda sua força porque através desse cabo, dois ou mais computadores podem ser ligados e trocar informações entre si.
 Isso é a internet, uma rede mundial de computadores interligados que se comunicam através de alguns protocolos, que são como acordos ou contratos que definem como a comunicação será regida.
-Para ser um pouco mais correto, a internet é uma rede várias outras redes constituída por empresas privadas, públicas, acadêmicas e de governo.
+Para ser um pouco mais correto, a internet é uma rede de várias outras constituídas por empresas privadas, públicas, acadêmicas e de governo.
 
 ## A história
 
 A origem da internet data da década de 60. Surgiu a partir de pesquisas militares durante a Guerra Fria.
 Nessa época duas grandes potencias, União Soviética e Estados Unidos, exerciam grande influência no mundo através de seus blocos ideológicos e politicamente antagônicos.
 
-Os Estados Unidos temiam um ataque, e qualquer inovação era bem vinda para proteger informações sigilosas a não serem trazidas a público. Então eles idealizaram um modelo de troca e compatilhamento de informações
-que permitia a descentralização da informação. Assim se uma base militar fosse atingida as informações não seriam perdidas.
+Os Estados Unidos temiam um ataque, e qualquer inovação era bem vinda para proteger informações sigilosas a não serem trazidas a público. Então eles idealizaram um modelo de troca e compatilhamento de informações que permitia a descentralização da informação. Portanto, se uma base militar fosse atingida as informações não seriam perdidas.
 Assim nasceu a ARPANET, criada pela *Advanced Research Projects Agency* (ARPA).
 
 O ataque inimigo da União Soviética, teóricamente, nunca existiu. Mas o que o Departamento de Defesa dos Estados Unidos não imagiva era que acabara de criar o maior fenômeno midiático do século 20.
@@ -52,7 +51,7 @@ Seja por interesses acadêmicos, militares, ou visando o grande potencial financ
 Bom, concluindo, a internet é uma grande infraestrutura de rede de computadores.
 Porém o termo Internet e Web são frequentemente usados como sinônimos. É bastante comum ouvir alguém falar "navegar na internet".
 Enquanto a internet é a rede, a Web é apenas um dos muitos serviços que funcionam através da internet.
-A Web é uma aplicação. Uma coleção de documentos (páginas web) e outros recursos como imagens, vídeos ou documentos pdf ligados por *hiperlinks* e URLs e acessados/consumidos por um programa de computador chamado *navegador*.
+A Web é uma aplicação. Uma coleção de documentos (páginas web) e outros recursos como imagens, vídeos ou documentos pdf ligados por *hiperlinks* (URLs) e acessados/consumidos por um programa de computador chamado *navegador*.
 Além da Web existem outros serviços/aplicações que funcionam através da internet como e-mails, transferencia de arquivos, controle remoto de computador, jogos e etc.
 A Web (World Wide Web ou WWW) foi criada em 1992 pelo cientista Tim Berners-Lee, do CERN (Organização Europeia para a Investigação Nuclear).
 
@@ -61,8 +60,8 @@ A Web (World Wide Web ou WWW) foi criada em 1992 pelo cientista Tim Berners-Lee,
 Bem, vamos lá.
 
 Imagine que você mora na casa de número **187.10.145.12** e na sua casa tem várias portas, uma delas é a porta **64001**.
-E você quer pedir um pouco de açucar para o seu amigo que mora na casa **173.194.118.33** e você vai bater na porta **80**.
-Se você precisa pedir açucar para o seu amigo, primeiro você precisa saber onde ele mora. E depois você precisa bater em alguma porta para chamá-lo.
+E você quer pedir um pouco de açúcar para o seu amigo que mora na casa **173.194.118.33** e você vai bater na porta **80**.
+Se você precisa pedir açúcar para o seu amigo, primeiro você precisa saber onde ele mora. E depois você precisa bater em alguma porta para chamá-lo.
 
 Com a internet é bem assim. Cada computador, celular, impressora ou qualquer outro dispositivo, ao se conectar numa rede como a internet recebe um endereço único, o IP.
 Além desse IP, seu computador possui muitas portas por onde ele pode se comunicar com outro computador.
@@ -79,9 +78,9 @@ Ok, mas como eu vou saber qual é o IP e a porta do Google? Eu só digito www.go
 
 DNS, ou sistema de nomes de domínios, são como listas telefônicas. Todo computador ao ligar na internet está configurado a acessar um DNS.
 
-Então quando você digita www.google.com.br no seu navegador, você está informando a ele a URL (Uniform Resource Locator) do web site que você quer acessar, neste caso o Google.
+Quando você digita www.google.com.br no seu navegador, você está informando a ele a URL (Uniform Resource Locator) do web site que você quer acessar, neste caso o Google.
 
-Então o seu navegador tenta lembrar se ele já conhece o endereço IP desse tal de Google, assim como você já sabe onde seu amigo do açucar mora pois você já precisou dele várias vezes, certo?
+Então o seu navegador tenta lembrar se ele já conhece o endereço IP desse tal de Google, assim como você já sabe onde seu amigo do açúcar mora pois você já precisou dele várias vezes, certo?
 
 Caso o seu navegador ainda não conheça o endereço do Google, ele se conecta ao DNS - Telefonista ;) - e pergunta qual o endereço do Google.
 
@@ -149,11 +148,11 @@ O HTTP possui algumas características básicas:
     > Cliente: \- Mãe, o almoço com arroz, feijão e ovo já está pronto?
     > Servidor: \- Está quase pronto.
 
-Essa comunicação cliente-servidor é feita através de mensagens. O cliente envia uma mensagem de requisição, e o servidor retorna uma mensagem de resposta. Essas mensagens são compostas por um formato específico. É como um acordo de um idioma próprio. Esse idioma/acordo é definido pelo [RFC](https://www.ietf.org/rfc/rfc2616.txt).
+Essa comunicação cliente-servidor é feita através de mensagens. O cliente envia uma mensagem de requisição, e o servidor retorna uma mensagem de resposta. Essas mensagens são compostas por um formato específico. É como um acordo de um idioma próprio. Esse idioma/acordo é definido pelo [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt).
 
 Cada mensagem, seja de requisição ou resposta, possui uma linha inicial, nenhuma ou mais linhas de cabeçalho onde são informadas as opções, tipos e outras configurações necessárias. Obviamente também temos o corpo da mensagem que é opcional em determinados casos.
 
-Exemplo de uma requisição, onde é solicitada a página web.
+Exemplo de uma requisição, onde é solicitada uma página web.
 ```
 GET / HTTP/1.1
 Host: www.google.com.br
@@ -178,16 +177,18 @@ Content-Type: text/html; charset=iso-8859-1
 <html></html>
 ```
 
-Hoje o HTTP está presente em muito de nossas vidas. Outras aplicações além do seu navegador ou de servidores web sabe falar e interpretar esse "idioma". Desde ferramentas de linha de comando, sua smart tv, até seu smartphone sabem lidar com esse protocolo.
+Hoje o HTTP está presente em muito de nossas vidas. Outras aplicações além do seu navegador ou de servidores web sabem falar e interpretar esse "idioma". Desde ferramentas de linha de comando, sua smart tv, até seu smartphone sabem lidar com esse protocolo.
 
 Este é um diagrama que mostra o passo a passo de como a internet funciona:
 
 ![Diagrama de Sequencia - Cliente Servidor](/images/posts/arquitetura-cliente-servidor-passo-a-passo.jpg)
 
-É claro, existe muitos outros detalhes mais técnicos por traz dessa maravilha chamada internet.
+É claro, existem muitos outros detalhes mais técnicos por trás dessa maravilha chamada internet.
 Mas isso que tentei demonstrar é o básico para quem deseja trabalhar nessa área de desenvolvimento web.
 
-A compreensão desde conteúdo inicial ajudará no entendimento de outros conceitos mais relacionados ao desenvolvimento web. **Bons estudos!**
+A compreensão deste conteúdo inicial ajudará no entendimento de outros conceitos mais relacionados ao desenvolvimento web.
+
+**Bons estudos!**
 
 
 ---
