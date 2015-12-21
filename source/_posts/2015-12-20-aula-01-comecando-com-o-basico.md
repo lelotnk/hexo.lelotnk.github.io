@@ -6,6 +6,7 @@ categories: 'Curso de HTML5 do Zero!'
 date: 2015-12-20 19:46:07
 ---
 
+
 No post anterior fizemos uma introdução ao HTML.
 
 Agora vamos ver algumas coisas básicas para o desenvolvimento.
@@ -28,7 +29,7 @@ Olá Mundo!
 
 Provavelmente você verá o seguinte resultado:
 
-![Olá Mundo!](http://placehold.it/500x300?text=Olá Mundo!)
+![Olá Mundo!](/images/posts/curso-html/ola-mundo.png)
 
 Esse erro aconteceu porque o seu navegador está utilizando a codificação padrão **ANSI (Windows-1252)** para interpretar o seu documento.
 
@@ -69,7 +70,7 @@ Se você não se sente a vontade com essa estrutura básica, volte ao nosso prim
 </html>
 ```
 
-![Olá Mundo!](http://placehold.it/500x300?text=Olá Mundo!)
+![Olá Mundo!](/images/posts/curso-html/ola-mundo-2.png)
 
 ## Elementos HTML
 
