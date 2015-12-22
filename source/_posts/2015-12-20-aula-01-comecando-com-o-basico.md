@@ -269,7 +269,7 @@ Um elemento de imagem é definido pela tag `<img>`, porém essa tag precisa de o
 - **src** (source ou fonte) é onde você define o caminho da imagem;
 - **width** é onde você define uma largura opcional da imagem;
 - **height** é onde você define uma altura opcional da imagem;
-- **alt** é onde especifica um texto alternativo para ser utilizado quando o elemento não puder ser mostrado. Por exemplo, quando o caminho *src* não existir. Este atributo também é lido por leitores de tela. Então um usuário, por exemplo, cego poderá "ouvir" o conteúdo dessa imagem.
+- **alt** onde especificado um texto alternativo, opcional, para ser utilizado quando o elemento não puder ser mostrado. Por exemplo, quando o caminho *src* não existir. Este atributo também é lido por leitores de tela, então um usuário, por exemplo, cego poderá "ouvir" o conteúdo dessa imagem.
 
 ```
 <img src="sunrise.jpg" width="640" height="426"> 
@@ -277,7 +277,7 @@ Um elemento de imagem é definido pela tag `<img>`, porém essa tag precisa de o
 
 ![Pôr do Sol](/images/posts/curso-html/sunrise.jpg)
 
-> Para funcionar você precisa ter um arquivo de imagem com o mesmo nome definido no atributo **src** na mesma pasta que o seu arquivo html
+> Para funcionar você precisa ter um arquivo de imagem com o mesmo nome definido no atributo **src** na mesma pasta que o seu arquivo html, caso contrário o conteúdo do atributo **alt** será mostrado.
 
 ### Algumas dicas
 
