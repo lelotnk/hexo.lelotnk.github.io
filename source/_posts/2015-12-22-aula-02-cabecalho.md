@@ -192,6 +192,33 @@ Para fazer isso em seu navegador você deve clicar com o botão direito do mouse
 
 ![Código-fonte da página](/images/posts/curso-html/codigo-fonte.png)
 
+### Um exemplo mais completo
+
+Segue abaixo um exemplo de como ficariam essas tags juntas:
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Meu documento HTML</title>
+
+    <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+    <meta name="author" content="Marco Aurélio Tanaka">
+    <meta http-equiv="refresh" content="120">
+
+    <base target="_blank" href="http://www.exemplo.com.br/">
+
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="estilos.css">
+
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+</body>
+</html>
+```
+
 ## Cabeçalhos de Conteúdo
 
 **Ok, mas e as tags `<h1>` até `<h6>`?**
